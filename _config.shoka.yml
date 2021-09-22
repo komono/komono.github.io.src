@@ -1,7 +1,7 @@
-alternate: Yume Shoka
+alternate: PAN SHUAI
 
 # Assets
-statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
+statics: //cdn.jsdelivr.net/gh/komono/komono.github.io@0.0.1.20210917/
 
 open_graph:
   #twitter_id:
@@ -17,6 +17,7 @@ menu:
     categories: /categories/ || th
     tags: /tags/ || tags
   friends: /friends/ || heart
+  links: /links/ || magic
 
 # Social Links
 # Usage: `Key: permalink || icon || color`
@@ -27,11 +28,11 @@ social:
   github: https://github.com/komono || github || "#191717"
   #google: https://plus.google.com/yourname || google
   twitter: https://twitter.com/PANSHUAi || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
-  music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
+  zhihu: https://www.zhihu.com/people/pan_shuai || zhihu || "#1e88e5"
+  # music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
   weibo: https://weibo.com/amehime || weibo || "#ea716e"
   about: https://about.me/amehime || address-card || "#3b5998"
-  #email: mailto:yourname@mail.com || envelope || "#55acd5"
+  email: mailto:1091711534@qq.com || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube
@@ -63,7 +64,7 @@ valine:
   lang: zh-CN
   tagMember:
     master:
-      # - deea5a8d259d17182a53be1772e4c182
+      - deea5a8d259d17182a53be1772e4c182
     friend:
       - deea5a8d259d17182a53be1772e4c182
 
