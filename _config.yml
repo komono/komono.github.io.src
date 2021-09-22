@@ -145,35 +145,35 @@ minify:
     exclude:
       - "**/*.min.js"
 
-algolia:
-  appId: BSM94ICL44
-  apiKey: 7148896781c8b150da4c6727cd47a216
-  adminApiKey: 6defa60b2fc4af3e7ed992a4dd6cb6bb
-  chunkSize: 5000
-  indexName:
-  fields:
-    - title #必须配置
-    - path #必须配置
-    - categories #推荐配置
-    - content:strip:truncate,0,4000
-    - gallery
-    - photos
-    - tags
+# algolia:
+#   appId: BSM94ICL44
+#   apiKey: 7148896781c8b150da4c6727cd47a216
+#   adminApiKey: 6defa60b2fc4af3e7ed992a4dd6cb6bb
+#   chunkSize: 5000
+#   indexName: 'algolia_index'
+#   fields:
+#     - title #必须配置
+#     - path #必须配置
+#     - categories #推荐配置
+#     - content:strip:truncate,0,4000
+#     - gallery
+#     - photos
+#     - tags
 
-feed:
-  limit: 20
-  order_by: "-date"
-  tag_dir: false
-  category_dir: false
-  rss:
-    enable: true
-    template: "themes/shoka/layout/_alternate/rss.ejs"
-    output: "rss.xml"
-  atom:
-    enable: true
-    template: "themes/shoka/layout/_alternate/atom.ejs"
-    output: "atom.xml"
-  jsonFeed:
-    enable: true
-    template: "themes/shoka/layout/_alternate/json.ejs"
-    output: "feed.json"
+# feed:
+#   limit: 20
+#   order_by: "-date"
+#   tag_dir: false
+#   category_dir: false
+#   rss:
+#     enable: true
+#     template: "themes/shoka/layout/_alternate/rss.ejs"
+#     output: "rss.xml"
+#   atom:
+#     enable: true
+#     template: "themes/shoka/layout/_alternate/atom.ejs"
+#     output: "atom.xml"
+#   jsonFeed:
+#     enable: true
+#     template: "themes/shoka/layout/_alternate/json.ejs"
+#     output: "feed.json"
