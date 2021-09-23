@@ -27,7 +27,7 @@ menu:
 social:
   github: https://github.com/komono || github || "#191717"
   #google: https://plus.google.com/yourname || google
-  twitter: https://twitter.com/PANSHUAi || twitter || "#00aff0"
+  twitter: https://twitter.com/PANSHUAl || twitter || "#00aff0"
   zhihu: https://www.zhihu.com/people/pan_shuai || zhihu || "#1e88e5"
   # music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
   weibo: https://weibo.com/amehime || weibo || "#ea716e"
@@ -57,26 +57,44 @@ post:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  appId: #这里不要忘了改
-  appKey: #这里不要忘了改
-  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  appId: 65BkYOKYnPgMiwsOCEheFXYI-gzGzoHsz
+  appKey: s0Az5079LVHDjPJsncty1uPs
+  placeholder: #ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: zh-CN
+  visitor: true # 文章访问量统计
+  NoRecordIP: false # 不记录 IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: true # 默认打开评论框输入特效
+  tagMeta:
+    visitor: 新朋友
+    master: 主人
+    friend: 小伙伴
+  tagColor:
+    master: "var(--color-orange)"
+    friend: "var(--color-aqua)"
+    investor: "var(--color-pink)"
   tagMember:
     master:
-      - deea5a8d259d17182a53be1772e4c182
+      - 74cf067ea4ba19b0310d6ee958b0bff8
     friend:
-      - deea5a8d259d17182a53be1772e4c182
+      # - hash of friend@email.com
+    investor:
+      # - hash of investor1@email.com
+
+
 
 # bgm
 audio:
    - title: #列表1
       list:
-        - https://music.163.com/#/playlist?id=2943811283
-        - https://music.163.com/#/playlist?id=2297706586
+        - https://music.163.com/#/playlist?id=1336990677
+        - https://music.163.com/#/playlist?id=1397786602
    - title: #列表2
       list:
-        - https://music.163.com/#/playlist?id=2031842656
+        - https://music.163.com/#/playlist?id=1432229463
+
 
 # Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
 pangu: true

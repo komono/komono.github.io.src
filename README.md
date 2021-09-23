@@ -6,6 +6,9 @@
 hexo server
 ## 发布
 hexo deploy
+## 建立索引 -n, --no-clear  Does not clear the existing index
+hexo algolia
+
 ```
 
 ## 2.常用git命令
