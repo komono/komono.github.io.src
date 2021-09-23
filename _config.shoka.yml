@@ -28,7 +28,7 @@ social:
   github: https://github.com/komono || github || "#191717"
   #google: https://plus.google.com/yourname || google
   twitter: https://twitter.com/PANSHUAl || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/pan_shuai || zhihu || "#1e88e5"
+  # zhihu: https://www.zhihu.com/people/pan_shuai || zhihu || "#1e88e5"
   # music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
   weibo: https://weibo.com/amehime || weibo || "#ea716e"
   about: https://about.me/amehime || address-card || "#3b5998"
@@ -71,17 +71,19 @@ valine:
     visitor: 新朋友
     master: 主人
     friend: 小伙伴
+    investor: 金主粑粑
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"
     investor: "var(--color-pink)"
   tagMember:
     master:
+      # - MD5 of master@email.com
       - 74cf067ea4ba19b0310d6ee958b0bff8
     friend:
-      # - hash of friend@email.com
+      # - MD5 of friend@email.com
     investor:
-      # - hash of investor1@email.com
+      # - MD5 of investor1@email.com
 
 
 
