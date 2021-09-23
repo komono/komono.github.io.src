@@ -111,3 +111,9 @@ disable_baidu_transformation: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: true
+
+
+# Whether to show the loading cat
+loader:
+  start: false # When entering the page
+  switch: false # When switching to another page
