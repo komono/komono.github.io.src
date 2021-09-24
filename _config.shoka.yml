@@ -48,6 +48,14 @@ footer:
 post:
   count: true
 
+# Dark Mode
+# By default, the page judges whether to turn on the dark mode according to the device settings or user selection
+# if `true`, the page will be displayed directly as Dark Mode, unless the user makes another choice
+darkmode: true
+
+# By default the page will automatically scroll to the last viewed position
+# if `false`, automatic positioning will be turned off
+auto_scroll: true
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -91,11 +99,10 @@ valine:
 audio:
    - title: #列表1
       list:
-        - https://music.163.com/#/playlist?id=1336990677
-        - https://music.163.com/#/playlist?id=1397786602
+        - https://music.163.com/#/playlist?id=5231517090
    - title: #列表2
       list:
-        - https://music.163.com/#/playlist?id=1432229463
+        - https://music.163.com/#/playlist?id=17070000
 
 
 # Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
