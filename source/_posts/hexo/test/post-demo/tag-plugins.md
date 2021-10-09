@@ -1,6 +1,11 @@
 title: Tag Plugins
 date: 2013-12-25 00:14:39
+update: 2021/10/09
+categories:
+ - [Hexo, 测试, 大佬的测试文章]
 tags:
+ - Hexo
+ - 测试文章
 ---
 
 This post is used for testing tag plugins. See [docs](http://zespia.tw/hexo/docs/tag-plugins.html) for more info.

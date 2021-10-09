@@ -1,8 +1,11 @@
 title: Markdown Style test
 date: 2018-7-24 23:31:06
+update: 2021/10/09
+categories:
+ - [Hexo, 测试, 大佬的测试文章]
 tags:
-  - Foo
-  - Bar
+ - Hexo
+ - 测试文章
 ---
 
 This post is originated from [here](https://gist.github.com/apackeer/4159268) and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.

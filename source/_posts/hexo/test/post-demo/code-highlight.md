@@ -1,7 +1,12 @@
 ---
 title: Code Highlight Style test
 date: 2019-07-25 16:43:00
+update: 2021/10/09
+categories:
+ - [Hexo, 测试, 大佬的测试文章]
 tags:
+ - Hexo
+ - 测试文章
 ---
 
 Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of https://highlightjs.org
