@@ -5,7 +5,7 @@
 # Site
 title: Blog
 subtitle: ≮记一些想记又记不住的东西≯ #「记一些想记又记不住的东西」『记一些想记又记不住的东西』
-description: 描述123
+description: 猿类丶社畜丶懒癌晚期
 keywords: panshuai,panshual,PAN,ptpan,blog # edit for Theme.shoka
 author: PAN
 language: zh-CN # 这里只可以选 zh-CN、zh-HK、zh-TW、ja、en 这几个格式
@@ -29,7 +29,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -52,14 +52,12 @@ prismjs:
 # Category & Tag
 default_category: uncategorized
 category_map: # edit for Theme.shoka
-  计算机科学: computer-science
+  二进制世界: programmer
   Java: java
   Hexo: hexo
   测试: test
   大佬的测试文章: post-demo
   二进制杂谈: note
-  零基础学Java语言-浙江大学-翁恺: course-1
-  Theme Shoka Documentation: theme-shoka-doc
 tag_map:
 
 # Date / Time format

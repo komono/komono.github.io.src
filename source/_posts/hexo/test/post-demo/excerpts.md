@@ -1,6 +1,6 @@
 title: Excerpts
 date: 2013-12-25 00:23:23
-update: 2021/10/09
+update: 2017/10/09
 categories:
  - [Hexo, 测试, 大佬的测试文章]
 tags:
